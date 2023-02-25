@@ -1,0 +1,22 @@
+.Categories {
+  background-color: rgba(0, 0, 0, 0.934);
+  color: #fff;
+}
+
+.Categories ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Categories ul a {
+  padding: 1.2rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.Categories ul a:hover {
+  background-color: #00acee;
+  padding: 1.2rem 25px;
+  border-radius: 50px;
+  cursor: pointer;
+}
