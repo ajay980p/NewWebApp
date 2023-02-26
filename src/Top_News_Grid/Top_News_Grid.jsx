@@ -26,7 +26,6 @@ function Top_news_Grid() {
         <div className='Grid_1'>
           <img src={News[10]?.urlToImage}></img>
           <p>{News[10]?.title}</p>
-          <button>FEATURED</button>
         </div>
 
         {/* ******************************* */}
@@ -43,13 +42,11 @@ function Top_news_Grid() {
             <div className='Sub_Grid_2_Child2_1'>
               <img src={News[3]?.urlToImage}></img>
               <p>Title : {News[3]?.title}</p>
-              <button>FEATURED</button>
             </div>
 
             <div className='Sub_Grid_2_Child2_2'>
               <img src={News[4]?.urlToImage}></img>
               <p>Title : {News[4]?.title}</p>
-              <button>FEATURED</button>
             </div>
           </div>
         </div>

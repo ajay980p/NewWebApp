@@ -1,10 +1,14 @@
 .footer {
-  height: 1200px;
+  height: auto;
   background-color: rgba(0, 0, 0, 0.079);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 1%;
+}
+
+.footer h5 {
+  font-size: 20px;
 }
 
 /* ******************************** */
@@ -51,9 +55,22 @@
 
 /* *********************************** */
 
-@media (max-width: 1008px) {
-  .items_Div {
+@media (max-width: 800px) {
+  .footer {
     display: block;
+    margin-left: 2%;
+  }
+
+  .items_Div {
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+  }
+
+  .flex_Div {
+    display: flex;
+    text-align: none;
+    width: 100%;
   }
 
 }

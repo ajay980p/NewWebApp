@@ -23,18 +23,6 @@ function Footer() {
 
   return (
     <div className='footer'>
-      <div className='div1 items_Div'>
-        <h5>Title 1</h5>
-        <div className='Sports_Div flex_Div'>
-          <img src={FooterNews[20]?.urlToImage}></img>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, reprehenderit!</p>
-          <div className='contact_details'>
-            <FaMailBulk /><span> example@example.com</span> <br />
-            <BsFillTelephonePlusFill /> <span> +91 1234567890</span>
-          </div>
-        </div>
-      </div>
-
       <div className='div2 items_Div'>
         <h5>Technology</h5>
         <div className='Technology_Div flex_Div'>

@@ -32,17 +32,6 @@
   font-size: 19px
 }
 
-.Grid_1 button {
-  position: relative;
-  left: 3%;
-  bottom: 55%;
-  background-color: #df0b2e;
-  padding: 5px 15px;
-  color: #fff;
-  font-size: 16px;
-  border: 1px solid black;
-}
-
 /* .Grid_1 .authorClass {
   bottom: 20%;
 } */
@@ -105,17 +94,6 @@
   color: aliceblue;
   font-weight: 600;
   font-size: 16px
-}
-
-.Sub_Grid_2_Child2_1 button {
-  position: relative;
-  left: 3%;
-  bottom: 84%;
-  background-color: #df0b2e;
-  padding: 5px 15px;
-  color: #fff;
-  font-size: 13px;
-  border: 1px solid black;
 }
 
 .Sub_Grid_2_Child2_2 {

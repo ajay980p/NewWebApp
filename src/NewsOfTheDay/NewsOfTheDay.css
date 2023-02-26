@@ -96,7 +96,7 @@
     }
 
     .Popular_Common img {
-      width: 400px;
+      width: 100%;
       height: 30vh;
       /* padding: 10px; */
     }
