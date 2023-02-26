@@ -1,7 +1,7 @@
 import React from 'react'
-import './AutoScrollable.css'
+import './HorizontalScroll.css'
 
-function AutoScrollable() {
+function HorizontalScroll() {
   return (
     <div>
       <h2>Categories</h2>
@@ -20,4 +20,4 @@ function AutoScrollable() {
   )
 }
 
-export default AutoScrollable;
+export default HorizontalScroll;
