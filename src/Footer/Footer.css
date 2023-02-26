@@ -3,7 +3,7 @@
   background-color: rgba(0, 0, 0, 0.079);
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 1%;
 }
 
