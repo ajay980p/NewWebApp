@@ -67,6 +67,11 @@
     margin-top: 0.5rem;
   }
 
+  .Popular_Common button:hover {
+    background-color: #18f400;
+    color: black;
+  }
+
   @media (max-width: 1492px) {
     .Popular_Common {
       width: 100%;
