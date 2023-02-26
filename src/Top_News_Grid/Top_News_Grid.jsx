@@ -26,17 +26,16 @@ function Top_news_Grid() {
       </div>
 
       <div className='TopNewsImage_2'>
-        <div className='common_properties_1'>
+        <div className='common_properties_1 Special_Property_1'>
           <div className='Image_1_1 common_properties_2'>
             <img src={TopNews[2]?.urlToImage}></img>
           </div>
-
           <div className='Image_1_2 common_properties_2'>
             <img src={TopNews[3]?.urlToImage}></img>
           </div>
         </div>
 
-        <div className='common_properties_1'>
+        <div className='common_properties_1 Special_Property_2'>
           <div className='Image_2_1 common_properties_2'>
             <img src={TopNews[4]?.urlToImage}></img>
           </div>
