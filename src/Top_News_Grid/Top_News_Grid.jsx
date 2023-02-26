@@ -5,12 +5,12 @@ import axios from 'axios'
 
 function Top_news_Grid() {
 
-  const [News, setNews] = useState([])
+  const [TopNews, setTopNews] = useState([])
 
   async function handleClick() {
 
     await axios.get("https://newsapi.org/v2/everything?q=bitcoin&apiKey=2b199577ba7d4962badd41f4e53e2f46").then((response) => {
-      setNews(response.data.articles);
+      setTopNews(response.data.articles);
     })
   }
 
@@ -21,35 +21,31 @@ function Top_news_Grid() {
 
   return (
     <div className='container'>
+      <div className='TopNewsImage_1'>
+        <img src={TopNews[1]?.urlToImage}></img>
+      </div>
 
-      <div className='NewsGrid'>
-        <div className='Grid_1'>
-          <img src={News[10]?.urlToImage}></img>
-          <p>{News[10]?.title}</p>
-        </div>
-
-        {/* ******************************* */}
-
-        <div className='Grid_2_Parent'>
-          <div className='Sub_Grid_2_Child1'>
-            <img src={News[5]?.urlToImage}></img>
-            <p>Title : {News[5]?.title}</p>
+      <div className='TopNewsImage_2'>
+        <div className='common_properties_1'>
+          <div className='Image_1_1 common_properties_2'>
+            <img src={TopNews[2]?.urlToImage}></img>
           </div>
 
-          {/* ***************************** */}
-
-          <div className='Sub_Grid_2_Child2'>
-            <div className='Sub_Grid_2_Child2_1'>
-              <img src={News[3]?.urlToImage}></img>
-              <p>Title : {News[3]?.title}</p>
-            </div>
-
-            <div className='Sub_Grid_2_Child2_2'>
-              <img src={News[4]?.urlToImage}></img>
-              <p>Title : {News[4]?.title}</p>
-            </div>
+          <div className='Image_1_2 common_properties_2'>
+            <img src={TopNews[3]?.urlToImage}></img>
           </div>
         </div>
+
+        <div className='common_properties_1'>
+          <div className='Image_2_1 common_properties_2'>
+            <img src={TopNews[4]?.urlToImage}></img>
+          </div>
+
+          <div className='Image_2_2 common_properties_2'>
+            <img src={TopNews[5]?.urlToImage}></img>
+          </div>
+        </div>
+
       </div>
     </div >
   )
