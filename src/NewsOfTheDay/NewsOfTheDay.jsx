@@ -2,7 +2,6 @@ import React from 'react'
 import './NewsOfTheDay.css'
 import { useState, useEffect } from 'react';
 import axios from 'axios'
-import { FaCalendarAlt } from 'react-icons/fa';
 
 
 function NewsOfTheDay() {
@@ -29,114 +28,163 @@ function NewsOfTheDay() {
 
       <div className='Popular'>
         <div className='Popular_Common'>
-          <div>
+          <div className='images'>
             <img src={News[3]?.urlToImage}></img>
           </div>
-          <div>
+          <div className='contents'>
             <h3>
-              Title : {News[0]?.title}
+              {News[3]?.title}
             </h3>
-            <p>{News[0]?.description}</p>
-            <FaCalendarAlt /><span> {News[0]?.publishedAt}</span>
-            <p>Author : {News[0]?.author}</p>
+            <p className='desc'>{News[3]?.description}</p>
+            <p className='author'>Author : {News[3]?.author}</p>
             <button>Read More</button>
           </div>
         </div>
 
+        <hr className='horizontalLine' />
 
         <div className='Popular_Common'>
-          <div>
-            <img src={News[3]?.urlToImage}></img>
+          <div className='images'>
+            <img src={News[4]?.urlToImage}></img>
           </div>
-          <div>
-            <h3>Hello</h3>
-            <p>{News[0]?.description}</p>
+          <div className='contents'>
+            <h3>
+              {News[4]?.title}
+            </h3>
+            <p className='desc'>{News[4]?.description}</p>
+            <p>Author : {News[4]?.author}</p>
+            <button>Read More</button>
           </div>
         </div>
 
+        <hr className='horizontalLine' />
+
         <div className='Popular_Common'>
-          <div>
-            <img src={News[3]?.urlToImage}></img>
+          <div className='images'>
+            <img src={News[5]?.urlToImage}></img>
           </div>
-          <div>
-            <h3>Hello</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, molestias!</p>
+          <div className='contents'>
+            <h3>
+              {News[5]?.title}
+            </h3>
+            <p className='desc'>{News[5]?.description}</p>
+            <p>Author : {News[5]?.author}</p>
+            <button>Read More</button>
           </div>
         </div>
 
+        <hr className='horizontalLine' />
+
         <div className='Popular_Common'>
-          <div>
-            <img src={News[3]?.urlToImage}></img>
+          <div className='images'>
+            <img src={News[6]?.urlToImage}></img>
           </div>
-          <div>
-            <h3>Hello</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, molestias!</p>
+          <div className='contents'>
+            <h3>
+              {News[6]?.title}
+            </h3>
+            <p className='desc'>{News[6]?.description}</p>
+            <p>Author : {News[6]?.author}</p>
+            <button>Read More</button>
           </div>
         </div>
 
+        <hr className='horizontalLine' />
+
         <div className='Popular_Common'>
-          <div>
-            <img src={News[1]?.urlToImage}></img>
+          <div className='images'>
+            <img src={News[7]?.urlToImage}></img>
           </div>
-          <div>
-            <h3>Hello</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, molestias!</p>
+          <div className='contents'>
+            <h3>
+              {News[7]?.title}
+            </h3>
+            <p className='desc'>{News[7]?.description}</p>
+            <p>Author : {News[7]?.author}</p>
+            <button>Read More</button>
           </div>
         </div>
 
+        <hr className='horizontalLine' />
+
         <div className='Popular_Common'>
-          <div>
-            <img src={News[1]?.urlToImage}></img>
+          <div className='images'>
+            <img src={News[8]?.urlToImage}></img>
           </div>
-          <div>
-            <h3>Hello</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, molestias!</p>
+          <div className='contents'>
+            <h3>
+              {News[8]?.title}
+            </h3>
+            <p className='desc'>{News[8]?.description}</p>
+            <p>Author : {News[8]?.author}</p>
+            <button>Read More</button>
           </div>
         </div>
 
+        <hr className='horizontalLine' />
+
         <div className='Popular_Common'>
-          <div>
-            <img src={News[1]?.urlToImage}></img>
+          <div className='images'>
+            <img src={News[9]?.urlToImage}></img>
           </div>
-          <div>
-            <h3>Hello</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, molestias!</p>
+          <div className='contents'>
+            <h3>
+              {News[9]?.title}
+            </h3>
+            <p className='desc'>{News[9]?.description}</p>
+            <p>Author : {News[9]?.author}</p>
+            <button>Read More</button>
           </div>
         </div>
 
+        <hr className='horizontalLine' />
+
         <div className='Popular_Common'>
-          <div>
-            <img src={News[1]?.urlToImage}></img>
+          <div className='images'>
+            <img src={News[10]?.urlToImage}></img>
           </div>
-          <div>
-            <h3>Hello</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, molestias!</p>
+          <div className='contents'>
+            <h3>
+              {News[10]?.title}
+            </h3>
+            <p className='desc'>{News[10]?.description}</p>
+            <p>Author : {News[10]?.author}</p>
+            <button>Read More</button>
           </div>
         </div>
 
-        <div className='Popular_Common'>
-          <div>
-            <img src={News[1]?.urlToImage}></img>
-          </div>
+        <hr className='horizontalLine' />
 
-          <div>
-            <h3>Hello</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, molestias!</p>
+        <div className='Popular_Common'>
+          <div className='images'>
+            <img src={News[11]?.urlToImage}></img>
+          </div>
+          <div className='contents'>
+            <h3>
+              {News[11]?.title}
+            </h3>
+            <p className='desc'>{News[11]?.description}</p>
+            <p>Author : {News[11]?.author}</p>
+            <button>Read More</button>
           </div>
         </div>
 
+        <hr className='horizontalLine' />
+
         <div className='Popular_Common'>
-          <div>
-            <img src={News[1]?.urlToImage}></img>
+          <div className='images'>
+            <img src={News[12]?.urlToImage}></img>
           </div>
-          <div>
-            <h3>Hello</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, molestias!</p>
+          <div className='contents'>
+            <h3>
+              {News[12]?.title}
+            </h3>
+            <p className='desc'>{News[12]?.description}</p>
+            <p>Author : {News[12]?.author}</p>
+            <button>Read More</button>
           </div>
         </div>
-
       </div>
-
     </div>
   )
 }
