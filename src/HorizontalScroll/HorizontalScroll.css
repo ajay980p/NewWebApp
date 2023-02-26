@@ -1,11 +1,14 @@
 .HorizontalScrollableDiv {
-  background-color: rgb(25, 149, 198);
+  background-color: rgba(25, 149, 198, 0.66);
   padding-bottom: 20px;
   padding-top: 20px;
 }
 
 .HorizontalScrollableDiv h2 {
   text-align: center;
+  color: red;
+  text-shadow: 2px 1px 1px black;
+  padding-bottom: 5px;
 }
 
 .wrapper {

@@ -22,7 +22,7 @@ function Top_news_Grid() {
   return (
     <div className='container'>
       <div className='TopNewsImage_1'>
-        <img src={TopNews[1]?.urlToImage}></img>
+        <img src={TopNews[42]?.urlToImage}></img>
       </div>
 
       <div className='TopNewsImage_2'>

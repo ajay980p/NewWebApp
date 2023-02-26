@@ -29,14 +29,14 @@ function NewsOfTheDay() {
       <div className='Popular'>
         <div className='Popular_Common'>
           <div className='images'>
-            <img src={News[3]?.urlToImage}></img>
+            <img src={News[43]?.urlToImage}></img>
           </div>
           <div className='contents'>
             <h3>
-              {News[3]?.title}
+              {News[43]?.title}
             </h3>
-            <p className='desc'>{News[3]?.description}</p>
-            <p className='author'>Author : {News[3]?.author}</p>
+            <p className='desc'>{News[43]?.description}</p>
+            <p className='author'>Author : {News[43]?.author}</p>
             <button>Read More</button>
           </div>
         </div>
@@ -45,14 +45,14 @@ function NewsOfTheDay() {
 
         <div className='Popular_Common'>
           <div className='images'>
-            <img src={News[4]?.urlToImage}></img>
+            <img src={News[44]?.urlToImage}></img>
           </div>
           <div className='contents'>
             <h3>
-              {News[4]?.title}
+              {News[44]?.title}
             </h3>
-            <p className='desc'>{News[4]?.description}</p>
-            <p>Author : {News[4]?.author}</p>
+            <p className='desc'>{News[44]?.description}</p>
+            <p>Author : {News[44]?.author}</p>
             <button>Read More</button>
           </div>
         </div>
@@ -61,14 +61,14 @@ function NewsOfTheDay() {
 
         <div className='Popular_Common'>
           <div className='images'>
-            <img src={News[5]?.urlToImage}></img>
+            <img src={News[45]?.urlToImage}></img>
           </div>
           <div className='contents'>
             <h3>
-              {News[5]?.title}
+              {News[45]?.title}
             </h3>
-            <p className='desc'>{News[5]?.description}</p>
-            <p>Author : {News[5]?.author}</p>
+            <p className='desc'>{News[45]?.description}</p>
+            <p>Author : {News[45]?.author}</p>
             <button>Read More</button>
           </div>
         </div>
@@ -77,14 +77,14 @@ function NewsOfTheDay() {
 
         <div className='Popular_Common'>
           <div className='images'>
-            <img src={News[6]?.urlToImage}></img>
+            <img src={News[46]?.urlToImage}></img>
           </div>
           <div className='contents'>
             <h3>
-              {News[6]?.title}
+              {News[46]?.title}
             </h3>
-            <p className='desc'>{News[6]?.description}</p>
-            <p>Author : {News[6]?.author}</p>
+            <p className='desc'>{News[46]?.description}</p>
+            <p>Author : {News[46]?.author}</p>
             <button>Read More</button>
           </div>
         </div>
@@ -93,14 +93,14 @@ function NewsOfTheDay() {
 
         <div className='Popular_Common'>
           <div className='images'>
-            <img src={News[7]?.urlToImage}></img>
+            <img src={News[47]?.urlToImage}></img>
           </div>
           <div className='contents'>
             <h3>
-              {News[7]?.title}
+              {News[47]?.title}
             </h3>
-            <p className='desc'>{News[7]?.description}</p>
-            <p>Author : {News[7]?.author}</p>
+            <p className='desc'>{News[47]?.description}</p>
+            <p>Author : {News[47]?.author}</p>
             <button>Read More</button>
           </div>
         </div>
@@ -109,14 +109,14 @@ function NewsOfTheDay() {
 
         <div className='Popular_Common'>
           <div className='images'>
-            <img src={News[8]?.urlToImage}></img>
+            <img src={News[48]?.urlToImage}></img>
           </div>
           <div className='contents'>
             <h3>
-              {News[8]?.title}
+              {News[48]?.title}
             </h3>
-            <p className='desc'>{News[8]?.description}</p>
-            <p>Author : {News[8]?.author}</p>
+            <p className='desc'>{News[48]?.description}</p>
+            <p>Author : {News[48]?.author}</p>
             <button>Read More</button>
           </div>
         </div>
@@ -125,14 +125,14 @@ function NewsOfTheDay() {
 
         <div className='Popular_Common'>
           <div className='images'>
-            <img src={News[9]?.urlToImage}></img>
+            <img src={News[49]?.urlToImage}></img>
           </div>
           <div className='contents'>
             <h3>
-              {News[9]?.title}
+              {News[49]?.title}
             </h3>
-            <p className='desc'>{News[9]?.description}</p>
-            <p>Author : {News[9]?.author}</p>
+            <p className='desc'>{News[49]?.description}</p>
+            <p>Author : {News[49]?.author}</p>
             <button>Read More</button>
           </div>
         </div>
@@ -141,14 +141,14 @@ function NewsOfTheDay() {
 
         <div className='Popular_Common'>
           <div className='images'>
-            <img src={News[10]?.urlToImage}></img>
+            <img src={News[50]?.urlToImage}></img>
           </div>
           <div className='contents'>
             <h3>
-              {News[10]?.title}
+              {News[50]?.title}
             </h3>
-            <p className='desc'>{News[10]?.description}</p>
-            <p>Author : {News[10]?.author}</p>
+            <p className='desc'>{News[50]?.description}</p>
+            <p>Author : {News[50]?.author}</p>
             <button>Read More</button>
           </div>
         </div>

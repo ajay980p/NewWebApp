@@ -24,67 +24,67 @@ function HorizontalScroll() {
       <div className='wrapper'>
 
         <div className='items'>
-          <img src={PopularITNews[1]?.urlToImage}></img>
+          <img src={PopularITNews[61]?.urlToImage}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[2]?.urlToImage}></img>
+          <img src={PopularITNews[62]?.urlToImage}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[3]?.urlToImage}></img>
+          <img src={PopularITNews[63]?.urlToImage}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[4]?.urlToImage}></img>
+          <img src={PopularITNews[99]?.urlToImage}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[5]?.urlToImage}></img>
+          <img src={PopularITNews[65]?.urlToImage}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[6]?.urlToImage}></img>
+          <img src={PopularITNews[66]?.urlToImage}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[7]?.urlToImage}></img>
+          <img src={PopularITNews[67]?.urlToImage}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[8]?.urlToImage}></img>
+          <img src={PopularITNews[68]?.urlToImage}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[9]?.urlToImage}></img>
+          <img src={PopularITNews[69]?.urlToImage}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[10]?.urlToImage}></img>
+          <img src={PopularITNews[70]?.urlToImage}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[11]?.urlToImage}></img>
+          <img src={PopularITNews[71]?.urlToImage}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[12]?.urlToImage}></img>
+          <img src={PopularITNews[78]?.urlToImage}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[13]?.urlToImage}></img>
+          <img src={PopularITNews[73]?.urlToImage}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[14]?.urlToImage}></img>
+          <img src={PopularITNews[74]?.urlToImage}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[15]?.urlToImage}></img>
+          <img src={PopularITNews[75]?.urlToImage}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[16]?.urlToImage}></img>
+          <img src={PopularITNews[76]?.urlToImage}></img>
         </div>
 
       </div>
