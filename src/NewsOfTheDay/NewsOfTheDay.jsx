@@ -2,6 +2,7 @@ import React from 'react'
 import './NewsOfTheDay.css'
 import { useState, useEffect } from 'react';
 import axios from 'axios'
+import { FaCalendarAlt } from 'react-icons/fa';
 
 
 function NewsOfTheDay() {
@@ -32,8 +33,13 @@ function NewsOfTheDay() {
             <img src={News[3]?.urlToImage}></img>
           </div>
           <div>
-            <h3>Hello</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, molestias!</p>
+            <h3>
+              Title : {News[0]?.title}
+            </h3>
+            <p>{News[0]?.description}</p>
+            <FaCalendarAlt /><span> {News[0]?.publishedAt}</span>
+            <p>Author : {News[0]?.author}</p>
+            <button>Read More</button>
           </div>
         </div>
 
@@ -44,7 +50,7 @@ function NewsOfTheDay() {
           </div>
           <div>
             <h3>Hello</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, molestias!</p>
+            <p>{News[0]?.description}</p>
           </div>
         </div>
 
