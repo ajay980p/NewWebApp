@@ -6,14 +6,11 @@ import axios from 'axios'
 function Top_news_Grid() {
 
   const [News, setNews] = useState([])
-  // const [A, setA] = useState([])
 
   async function handleClick() {
 
     await axios.get("https://newsapi.org/v2/everything?q=bitcoin&apiKey=2b199577ba7d4962badd41f4e53e2f46").then((response) => {
-      // console.log(response.data.articles);
       setNews(response.data.articles);
-      console.log(response.data.articles)
     })
   }
 
@@ -35,8 +32,8 @@ function Top_news_Grid() {
 
         <div className='Grid_2_Parent'>
           <div className='Sub_Grid_2_Child1'>
-            <img src={News[2]?.urlToImage}></img>
-            <p>Title : {News[2]?.title}</p>
+            <img src={News[3]?.urlToImage}></img>
+            <p>Title : {News[3]?.title}</p>
           </div>
 
           {/* ***************************** */}
@@ -45,10 +42,6 @@ function Top_news_Grid() {
             <div className='Sub_Grid_2_Child2_1'>
               <img src={News[3]?.urlToImage}></img>
               <p>Title : {News[3]?.title}</p>
-            </div>
-
-            <div className='Sub_Grid_2_Child21'>
-
             </div>
 
             <div className='Sub_Grid_2_Child2_2'>
