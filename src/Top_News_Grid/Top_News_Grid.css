@@ -13,6 +13,7 @@
   width: 50vw;
   height: 50.5vh;
   background-color: brown;
+  position: relative;
 }
 
 .Grid_1 img {
@@ -20,6 +21,28 @@
   height: 100%;
   image-resolution: fixed;
 }
+
+.Grid_1 p {
+  position: absolute;
+  bottom: 30%;
+  left: 3%;
+  right: 3%;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 19px
+}
+
+.Grid_1 button {
+  position: relative;
+  left: 3%;
+  bottom: 55%;
+  background-color: #df0b2e;
+  padding: 5px 15px;
+  color: #fff;
+  font-size: 16px;
+  border: 1px solid black;
+}
+
 
 /* CHILD 2 */
 
@@ -61,6 +84,7 @@
   width: 100%;
   height: 50%;
   background-color: rgba(0, 0, 0, 0.436);
+  position: relative;
 }
 
 .Sub_Grid_2_Child2_1 img {
@@ -69,10 +93,32 @@
   image-resolution: fixed;
 }
 
+.Sub_Grid_2_Child2_1 p {
+  position: absolute;
+  bottom: 30%;
+  left: 3%;
+  right: 3%;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 16px
+}
+
+.Sub_Grid_2_Child2_1 button {
+  position: relative;
+  left: 3%;
+  bottom: 84%;
+  background-color: #df0b2e;
+  padding: 5px 15px;
+  color: #fff;
+  font-size: 13px;
+  border: 1px solid black;
+}
+
 .Sub_Grid_2_Child2_2 {
   width: 100%;
   height: 50%;
   background-color: red;
+  position: relative;
 }
 
 .Sub_Grid_2_Child2_2 img {
@@ -80,6 +126,30 @@
   height: 100%;
   image-resolution: fixed;
 }
+
+.Sub_Grid_2_Child2_2 p {
+  position: absolute;
+  bottom: 42%;
+  left: 3%;
+  right: 3%;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 16px
+}
+
+.Sub_Grid_2_Child2_2 button {
+  position: relative;
+  left: 3%;
+  bottom: 84%;
+  background-color: #df0b2e;
+  padding: 5px 15px;
+  color: #fff;
+  font-size: 13px;
+  border: 1px solid black;
+}
+
+
+/* *********************************** */
 
 @media (max-width: 782px) {
   .NewsGrid {
