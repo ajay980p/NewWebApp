@@ -20,7 +20,9 @@
 
   .Popular {
     width: 80vw;
-    height: 100%;
+    height: 1100px;
+    overflow-x: none;
+    overflow-y: auto;
     background-color: rgba(0, 0, 0, 0.949);
     display: flex;
     flex-wrap: wrap;
