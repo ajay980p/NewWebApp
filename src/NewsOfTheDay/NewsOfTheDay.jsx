@@ -45,7 +45,11 @@ function NewsOfTheDay(props) {
       <div className='Card_Div'>
 
         <div className='Filter'>
-          Filter
+          
+
+
+
+          
         </div>
 
         <div className='Popular'>
