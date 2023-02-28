@@ -21,31 +21,63 @@ function Top_news_Grid() {
 
   return (
     <div className='container'>
-      <div className='TopNewsImage_1'>
-        <img src={TopNews[42]?.urlToImage}></img>
+      <div className="card" style={{ width: '18rem' }}>
+        <img src="..." className="card-img-top" alt="..." />
+        <div className="card-body">
+          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
       </div>
 
-      <div className='TopNewsImage_2'>
-        <div className='common_properties_1 Special_Property_1'>
-          <div className='Image_1_1 common_properties_2'>
-            <img src={TopNews[2]?.urlToImage}></img>
-          </div>
-          <div className='Image_1_2 common_properties_2'>
-            <img src={TopNews[3]?.urlToImage}></img>
-          </div>
+      <div className="card" style={{ width: '18rem' }}>
+        <img src="..." className="card-img-top" alt="..." />
+        <div className="card-body">
+          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
-
-        <div className='common_properties_1 Special_Property_2'>
-          <div className='Image_2_1 common_properties_2'>
-            <img src={TopNews[4]?.urlToImage}></img>
-          </div>
-
-          <div className='Image_2_2 common_properties_2'>
-            <img src={TopNews[5]?.urlToImage}></img>
-          </div>
-        </div>
-
       </div>
+
+      <div className="card" style={{ width: '18rem' }}>
+        <img src="..." className="card-img-top" alt="..." />
+        <div className="card-body">
+          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+
+      <div className="card" style={{ width: '18rem' }}>
+        <img src="..." className="card-img-top" alt="..." />
+        <div className="card-body">
+          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+
+      <div className="card" style={{ width: '18rem' }}>
+        <img src="..." className="card-img-top" alt="..." />
+        <div className="card-body">
+          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+
+      <div className="card" style={{ width: '18rem' }}>
+        <img src="..." className="card-img-top" alt="..." />
+        <div className="card-body">
+          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+
+      <div className="card" style={{ width: '18rem' }}>
+        <img src="..." className="card-img-top" alt="..." />
+        <div className="card-body">
+          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+
+      <div className="card" style={{ width: '18rem' }}>
+        <img src="..." className="card-img-top" alt="..." />
+        <div className="card-body">
+          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+
+
     </div >
   )
 }

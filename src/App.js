@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       <Header />
       <Categories CategoriesData={setCategoriesURL} />
-      {/* <Top_News_Grid /> */}
+      <Top_News_Grid />
       <NewsOfTheDay CategoryData={setCategoriesURL} />
       <HorizontalScroll />
       {/* <AutoScroll /> */}

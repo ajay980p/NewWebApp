@@ -45,11 +45,17 @@ function NewsOfTheDay(props) {
       <div className='Card_Div'>
 
         <div className='Filter'>
-          
-
-
-
-          
+          <div className='FilterDiv'>
+            <h3>Categories</h3>
+            <ul className='FilterCategories'>
+              <li>Sports</li>
+              <li>Technology</li>
+              <li>Health</li>
+              <li>General</li>
+              <li>Bussiness</li>
+              <li>Entertainment</li>
+            </ul>
+          </div>
         </div>
 
         <div className='Popular'>

@@ -15,8 +15,25 @@
 
   .Filter {
     width: 20vw;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.578);
+    height: 500px;
   }
+
+  .Filter h3 {
+    font-size: 1.3rem;
+  }
+
+  .FilterDiv {
+    margin: 2.5rem;
+  }
+
+  .FilterCategories {
+    list-style-type: none;
+    position: absolute;
+    left: 1.5rem;
+  }
+
+  .FilterCategories li {}
 
   .Popular {
     width: 80vw;
