@@ -1,30 +1,36 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Categories.css'
 
 function Categories(props) {
 
-  let urls;
-
   const handleClickSports = () => {
 
-    urls = 'https://newsapi.org/v2/everything?q=sports&apiKey=2b199577ba7d4962badd41f4e53e2f46';
+    fetch("https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=2b199577ba7d4962badd41f4e53e2f46")
+      .then((response) => response.json())
+      .then((data) =>
 
-    props.CategoriesData(urls);
+        props.CategoriesData(data.articles))
   }
 
-  const handleClickTechnology = () => {
+  const autoClick = () => {
 
-    urls = 'https://newsapi.org/v2/everything?q=sports&apiKey=2b199577ba7d4962badd41f4e53e2f46';
+    fetch("https://newsapi.org/v2/everything?q=sports&apiKey=2b199577ba7d4962badd41f4e53e2f46")
+      .then((response) => response.json())
+      .then((data) =>
 
-    props.CategoriesData(urls);
+        props.CategoriesData(data.articles))
   }
+
+  useEffect(() => {
+    autoClick();
+  }, [])
 
   return (
     <div className='Categories'>
       <ul>
         <a >Home</a>
         <a onClick={handleClickSports}>Sports</a>
-        <a onClick={handleClickTechnology}>Technology</a>
+        <a >Technology</a>
         <a>Health</a>
         <a>General</a>
         <a>Bussiness</a>

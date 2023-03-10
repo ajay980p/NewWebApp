@@ -10,3 +10,7 @@
   margin: 5%;
   justify-content: center;
 }
+
+.card:hover {
+  cursor: pointer;
+}

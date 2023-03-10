@@ -1,83 +1,76 @@
 import React from 'react'
 import './Top_News_Grid.css'
 import { useState, useEffect } from 'react';
-import axios from 'axios'
+import { useContext } from 'react';
+import { handleContext } from '../App';
 
 function Top_news_Grid() {
 
-  const [TopNews, setTopNews] = useState([])
+  const { urls } = useContext(handleContext);
 
-  async function handleClick() {
-
-    await axios.get("https://newsapi.org/v2/everything?q=bitcoin&apiKey=2b199577ba7d4962badd41f4e53e2f46").then((response) => {
-      setTopNews(response.data.articles);
-    })
-  }
+  const [url, setUrl] = useState('');
 
   useEffect(() => {
-    handleClick();
-  }, [])
-
+    setUrl(urls ?? '');
+  }, [urls]);
 
   return (
     <div className='container'>
       <div className="card" style={{ width: '18rem' }}>
-        <img src="..." className="card-img-top" alt="..." />
+        <img src={urls[1]?.urlToImage} className="card-img-top" alt="..." />
         <div className="card-body">
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p className="card-text">{urls[1]?.title}</p>
         </div>
       </div>
 
       <div className="card" style={{ width: '18rem' }}>
-        <img src="..." className="card-img-top" alt="..." />
+        <img src={urls[2]?.urlToImage} className="card-img-top" alt="..." />
         <div className="card-body">
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p className="card-text">{urls[2]?.title}</p>
         </div>
       </div>
 
       <div className="card" style={{ width: '18rem' }}>
-        <img src="..." className="card-img-top" alt="..." />
+        <img src={urls[3]?.urlToImage} className="card-img-top" alt="..." />
         <div className="card-body">
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p className="card-text">{urls[3]?.title}</p>
         </div>
       </div>
 
       <div className="card" style={{ width: '18rem' }}>
-        <img src="..." className="card-img-top" alt="..." />
+        <img src={urls[4]?.urlToImage} className="card-img-top" alt="..." />
         <div className="card-body">
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p className="card-text">{urls[4]?.title}</p>
         </div>
       </div>
 
       <div className="card" style={{ width: '18rem' }}>
-        <img src="..." className="card-img-top" alt="..." />
+        <img src={urls[5]?.urlToImage} className="card-img-top" alt="..." />
         <div className="card-body">
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p className="card-text">{urls[5]?.title}</p>
         </div>
       </div>
 
       <div className="card" style={{ width: '18rem' }}>
-        <img src="..." className="card-img-top" alt="..." />
+        <img src={urls[6]?.urlToImage} className="card-img-top" alt="..." />
         <div className="card-body">
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p className="card-text">{urls[6]?.title}</p>
         </div>
       </div>
 
       <div className="card" style={{ width: '18rem' }}>
-        <img src="..." className="card-img-top" alt="..." />
+        <img src={urls[7]?.urlToImage} className="card-img-top" alt="..." />
         <div className="card-body">
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p className="card-text">{urls[7]?.title}</p>
         </div>
       </div>
 
       <div className="card" style={{ width: '18rem' }}>
-        <img src="..." className="card-img-top" alt="..." />
+        <img src={urls[8]?.urlToImage} className="card-img-top" alt="..." />
         <div className="card-body">
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p className="card-text">{urls[8]?.title}</p>
         </div>
       </div>
-
-
     </div >
   )
 }
