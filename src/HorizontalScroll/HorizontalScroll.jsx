@@ -9,8 +9,8 @@ function HorizontalScroll() {
 
   async function handlePopularITNews() {
 
-    await axios.get("https://newsapi.org/v2/everything?q=bitcoin&apiKey=2b199577ba7d4962badd41f4e53e2f46").then((response) => {
-      setPopularITNews(response.data.articles);
+    await axios.get("https://dna-bvdf.onrender.com/latest-news").then((response) => {
+      setPopularITNews(response.data);
     })
   }
 
@@ -24,67 +24,56 @@ function HorizontalScroll() {
       <div className='wrapper'>
 
         <div className='items'>
-          <img src={PopularITNews[61]?.urlToImage}></img>
+          <img src={PopularITNews[1]?.imgUrl}></img>
+        </div>
+
+
+        <div className='items'>
+          <img src={PopularITNews[2]?.imgUrl}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[62]?.urlToImage}></img>
+          <img src={PopularITNews[3]?.imgUrl}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[63]?.urlToImage}></img>
+          <img src={PopularITNews[4]?.imgUrl}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[99]?.urlToImage}></img>
+          <img src={PopularITNews[5]?.imgUrl}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[65]?.urlToImage}></img>
+          <img src={PopularITNews[6]?.imgUrl}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[66]?.urlToImage}></img>
+          <img src={PopularITNews[7]?.imgUrl}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[67]?.urlToImage}></img>
+          <img src={PopularITNews[8]?.imgUrl}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[68]?.urlToImage}></img>
+          <img src={PopularITNews[9]?.urlToImage}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[69]?.urlToImage}></img>
+          <img src={PopularITNews[10]?.imgUrl}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[70]?.urlToImage}></img>
+          <img src={PopularITNews[11]?.imgUrl}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[71]?.urlToImage}></img>
+          <img src={PopularITNews[12]?.imgUrl}></img>
         </div>
 
         <div className='items'>
-          <img src={PopularITNews[78]?.urlToImage}></img>
-        </div>
-
-        <div className='items'>
-          <img src={PopularITNews[73]?.urlToImage}></img>
-        </div>
-
-        <div className='items'>
-          <img src={PopularITNews[74]?.urlToImage}></img>
-        </div>
-
-        <div className='items'>
-          <img src={PopularITNews[75]?.urlToImage}></img>
-        </div>
-
-        <div className='items'>
-          <img src={PopularITNews[76]?.urlToImage}></img>
+          <img src={PopularITNews[13]?.imgUrl}></img>
         </div>
 
       </div>
