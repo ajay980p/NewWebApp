@@ -12,8 +12,8 @@ function Footer() {
 
   async function handleFooterNews() {
 
-    await axios.get("https://newsapi.org/v2/everything?q=bitcoin&apiKey=2b199577ba7d4962badd41f4e53e2f46").then((response) => {
-      setFooterNews(response.data.articles);
+    await axios.get("https://dna-bvdf.onrender.com/latest-news").then((response) => {
+      setFooterNews(response.data);
     })
   }
 
@@ -26,24 +26,24 @@ function Footer() {
       <div className='div2 items_Div'>
         <h5>Technology</h5>
         <div className='Technology_Div flex_Div'>
-          <img src={FooterNews[10]?.urlToImage}></img>
-          <p>{FooterNews[10]?.title}</p>
+          <img src={FooterNews[1]?.imgUrl}></img>
+          <p>{FooterNews[1]?.title}</p>
         </div>
       </div>
 
       <div className='div3 items_Div'>
         <h5>Sports</h5>
         <div className='Sports_Div flex_Div'>
-          <img src={FooterNews[11]?.urlToImage}></img>
-          <p>{FooterNews[11]?.title}</p>
+          <img src={FooterNews[2]?.imgUrl}></img>
+          <p>{FooterNews[2]?.title}</p>
         </div>
       </div>
 
       <div className='div4 items_Div'>
         <h5>Entertainment</h5>
         <div className='Entertainment_Div flex_Div'>
-          <img src={FooterNews[12]?.urlToImage}></img>
-          <p>{FooterNews[12]?.title}</p>
+          <img src={FooterNews[3]?.imgUrl}></img>
+          <p>{FooterNews[3]?.title}</p>
         </div>
       </div>
 
